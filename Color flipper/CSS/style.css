@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px 40px;
+    background: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    grid-gap: 25rem;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 1rem;
+}
+
+nav h4 {
+    margin-left: 14rem;
+    font-size: 1.5em;
+    color: rgb(72, 72, 235);
+}
+
+nav h4 a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 1rem 0 1rem;
+    background: rgb(217, 202, 185);
+    border: 1px solid rgb(243, 213, 168);
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    box-shadow: 1px 1px 13px black
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    flex-direction: column;
+}
+
+.box {
+    color: white !important;
+    background-color: black !important;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px black;
+}
+
+.container h1 {
+    color: rgb(209, 209, 209);
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px black;
+}
+
+.container h1 span {
+    color: rgb(209, 209, 209);
+}
+
+.btn {
+    margin-top: 3em;
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 1.2rem;
+}
+
+.btn:hover {
+    border-color: white;
+}
+
+.para {
+    margin-top: 5em;
+}
+
+.para p {
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.para p span {
+    font-weight: bold;
+}
