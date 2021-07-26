@@ -1,0 +1,28 @@
+body {
+    background-color: #E8E8E8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    height: 95vh;
+    width: 100%;
+}
+
+.container span {
+    font-size: 10rem;
+}
+
+#btn {
+    margin: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
